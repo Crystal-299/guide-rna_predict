@@ -87,6 +87,7 @@ ATGGCAATTGCCTAACCCAGAGAATGGGCGTCGGGGACT...
 >CDS9
 TGGAGATCTCAGCTACCACATGGATATCTAAATGCATG...
 ```
+文件内容为fasta格式即可，对文件后缀无要求。
 
 **方式C — 位置文件（仅起止，配合 `--contig`）**
 
@@ -104,8 +105,6 @@ targets.txt 中每行只需写 `start end label`：
 62541730  62541863  CDS8
 62542013  62542125  CDS9
 ```
-
-文件内容为fasta格式即可，对文件后缀无要求。
 
 ##### 3. 参数说明
 
